@@ -1,0 +1,6 @@
+@crud_web_api_repository_pattern_HostAddress = http://localhost:5003
+
+GET {{crud_web_api_repository_pattern_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

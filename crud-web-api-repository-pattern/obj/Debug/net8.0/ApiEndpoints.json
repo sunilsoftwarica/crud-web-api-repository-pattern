@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "crud_web_api_repository_pattern.Controllers.StudentController",
+    "Method": "GetStudentById",
+    "RelativePath": "v1/student/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "crud_web_api_repository_pattern.Dto.StudentDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
